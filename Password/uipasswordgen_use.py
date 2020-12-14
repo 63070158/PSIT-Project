@@ -22,16 +22,16 @@ pass_label = Label(root, text = 'RECOMMEND PASSWORD LENGTH UP TO 12 CHARACTER', 
 ##length = Spinbox(root, from_ = 12, to_ = 32 , textvariable = pass_len , width = 15).pack()
 pass_label = Label(root, text = 'UPPER CHARACTER', font = 'arial 10 bold').pack()
 pass_len2 = IntVar()
-length = Spinbox(root, from_ = 0, to_ = 32 , textvariable = pass_len2 , width = 15).pack()
+length = Spinbox(root, from_ = 0, to_ = float('inf') , textvariable = pass_len2 , width = 15).pack()
 pass_label = Label(root, text = 'LOWER CHARACTER', font = 'arial 10 bold').pack()
 pass_len3 = IntVar()
-length = Spinbox(root, from_ = 0, to_ = 32 , textvariable = pass_len3 , width = 15).pack()
+length = Spinbox(root, from_ = 0, to_ = float('inf') , textvariable = pass_len3 , width = 15).pack()
 pass_label = Label(root, text = 'DIGITS CHARACTER', font = 'arial 10 bold').pack()
 pass_len4 = IntVar()
-length = Spinbox(root, from_ = 0, to_ = 32 , textvariable = pass_len4 , width = 15).pack()
+length = Spinbox(root, from_ = 0, to_ = float('inf') , textvariable = pass_len4 , width = 15).pack()
 pass_label = Label(root, text = 'PUNCTUATION CHARACTER', font = 'arial 10 bold').pack()
 pass_len5 = IntVar()
-length = Spinbox(root, from_ = 0, to_ = 32 , textvariable = pass_len5 , width = 15).pack()
+length = Spinbox(root, from_ = 0, to_ = float('inf') , textvariable = pass_len5 , width = 15).pack()
 
 
 #####define function
