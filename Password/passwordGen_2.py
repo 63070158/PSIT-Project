@@ -5,7 +5,7 @@ import string
 def genp(upper_cha, lower_cha, number_cha, pun_chr):
     """ส่วนที่ทำ Pass"""
     password = ""
-    for _ in range(upper_cha):
+    for _ in range(upper_cha):asdasdas
         cha = random.choice(string.ascii_uppercase)
         password += cha
     for _ in range(lower_cha):
